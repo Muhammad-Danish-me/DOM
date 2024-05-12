@@ -24,3 +24,16 @@ function getValue() {
   email = email.value;
   console.log("Email: " + email);
 }
+
+// Q.2
+// i.
+var form = document.getElementById("form-content");
+// console.log("Form-Content: " + form.nodeType);
+var lastName = document.getElementById("last-name");
+
+console.log(
+  "Last Name Node Type: " +
+    lastName.nodeType +
+    " Child Node: " +
+    lastName.childNodes
+);
